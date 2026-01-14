@@ -128,6 +128,10 @@ nav .menu a{
     
 }
 
+.btn-grp{
+    display: flex;
+}
+
 
 #about{
     padding-top: 130px;
@@ -323,6 +327,13 @@ footer .footer-container{
         margin: 20px;
         text-align: center;
     }
+
+    .btn-grp{
+        flex-direction: column;
+        gap: 10px
+        ;
+    }
+
     #banner .banner-content{
         width: 100%;
     }
