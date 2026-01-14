@@ -313,10 +313,15 @@ footer .footer-container{
         gap: 20px;
         width: 100%;
     }
+    nav .menu{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
     #banner{
         flex-direction: column;
         margin: 20px;
+        text-align: center;
     }
     #banner .banner-content{
         width: 100%;
@@ -360,6 +365,9 @@ footer .footer-container{
 
     #resume .resume-container{
         width: 100%;
+    }
+    .resume-details .card-text{
+        margin: 0;
     }
 
     footer .footer-container{
