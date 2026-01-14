@@ -11,6 +11,10 @@
 
 }
 
+.hide{
+    display: none;
+}
+
 .color-1{
     color: #FD6E0A;
 }
@@ -299,4 +303,70 @@ footer .footer-container{
     border-radius: 5px; 
     color: #757575;
     font-size: 16px;
+}
+
+
+@media  screen and (max-width: 576px) {
+    
+    nav{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    #banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    #banner .banner-content{
+        width: 100%;
+    }
+    #banner .banner-content h3{
+        font-size: 45px;
+    }
+
+    #banner .banner-image img{
+        width: 100%;
+    }
+
+    #about .about-container{
+        width: 100%;
+        padding: 20px;
+    }
+    #about .about-container .info{
+        flex-direction: column ;
+        gap: 20px;
+    }
+
+    #skill{
+        padding-top: 60px
+    }
+    #skill .container{
+        width: 100%;
+    }
+    #skill .container .skill-box{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .skill-box .skills {
+       max-width: 100%;
+    }
+
+    #resume .resume-container{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    #resume .resume-container{
+        width: 100%;
+    }
+
+    footer .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-container form input[type="text"], .footer-container form textarea{
+        width: 100%;
+    }
 }
